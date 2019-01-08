@@ -1,0 +1,53 @@
+body {
+  background: #ECEEF1;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Styling of the header begins */
+header {
+  height: 50px;
+  /* background: red; */
+  text-align: right;
+  padding: 10px;
+}
+
+header span {
+  /* background: blue; */
+  margin: 10px;
+}
+
+header button {
+  padding: 10px;
+  width: 100px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  /* background: #0077C5; */
+}
+
+/* Styling of the header ends */
+.content {
+  width: 450px;
+  /* background: green; */
+  padding: 40px 20px;
+  height: 700px;
+}
+
+#main-header {
+  text-align: center;
+}
+
+.logo, .favicon-container {
+  height: 60px;
+}
+
+.favicon-container ul {
+  list-style: none;
+  display: inline;
+}
+
+.favicon-container ul li {
+  padding: 20px;
+  display: inline;
+  font-size: 20px;
+}
