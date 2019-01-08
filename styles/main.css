@@ -3,18 +3,31 @@ body {
   margin: 0 auto;
   padding: 0;
 }
-
+a {
+  text-decoration: none;
+}
 /* Styling of the header begins */
 header {
-  height: 50px;
+  /*height: 50px;*/
   /* background: red; */
-  text-align: right;
-  padding: 10px;
+  /*text-align: right;*/
+  /*padding: 10px;*/
+  /*display: flex;
+  float: right;*/
 }
 
-header span {
-  /* background: blue; */
+/*header span {
+  
   margin: 10px;
+}
+
+header span p{
+  margin-bottom: -6px;
+}
+*/
+
+.signin_btn{
+
 }
 
 header button {
@@ -22,15 +35,17 @@ header button {
   width: 100px;
   border: 1px solid #000;
   border-radius: 3px;
-  /* background: #0077C5; */
+  
 }
 
 /* Styling of the header ends */
 .content {
   width: 450px;
-  /* background: green; */
+   /*background: #fff; */
   padding: 40px 20px;
   height: 700px;
+  margin: 0 auto;
+  margin-top: 55px;
 }
 
 #main-header {
@@ -47,7 +62,11 @@ header button {
 }
 
 .favicon-container ul li {
-  padding: 20px;
+  /*padding: 20px;*/
   display: inline;
   font-size: 20px;
+}
+
+.sign-up-form {
+  background: #fff;
 }

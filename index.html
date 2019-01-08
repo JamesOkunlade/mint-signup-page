@@ -3,27 +3,32 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Mint Signup Page</title>
+
   <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
-  <header>
-    <span>Already have an Intuit account?
-      <a href="#">I forgot my user ID or Password</a>
-    </span>
-    <span>
 
-    <button name="signIn">
-      Sign In
-    </button>
-  </span>
+  <header class="login_button">
+
+    <div>
+      <p>Already have an Intuit account?</p>
+      <a href="#">I forgot my user ID or assword</a>
+    </div>
+
+    <div class="signin_btn">
+      <button name="signIn">Sign In</button>
+    </div>
+
   </header>
+
   <div class="content">
     <div id="main-header">
       <div class="logo">
         <img src="img/main-logo.png" alt="main logo">
       </div>
+
       <div class="favicon-container">
         <ul class="favicons">
           <li><img src="img/fav1.png" alt="fav1">mint</li>
@@ -33,7 +38,8 @@
       </div>
     </div>
 
-    <form class="sign-up-form" action="" method="">
+    <div class="">
+      <form class="sign-up-form" action="" method="">
       <fieldset>
         <div class="form-title">
           <h2>One Account.
@@ -47,18 +53,22 @@
             Email address
             <input type="email" name="email" value="">
           </label>
+
           <label>
             Phone (recommended)
             <input type="email" name="password" value="">
             <p>Standard call, messaging or data rates may apply.</p>
           </label>
+
           <label>
             Password
             <input type="password" name="password" value="">
           </label>
+
           <button name="createAccount">
             Create account
           </button>
+
           <p>By clicking Create Account, you agree to our
             <a href="#">License Agreement</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.</p>
 
@@ -69,6 +79,7 @@
 
       </fieldset>
     </form>
+    </div>
 
   </div>
   <footer>
