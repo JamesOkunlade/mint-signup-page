@@ -9,16 +9,22 @@
 
 <body>
   <header>
-    <span>Already have an Intuit account?
-      <a href="#">I forgot my user ID or Password</a>
-    </span>
-    <span>
+    <ul>
+      <li class="inner">
+        <p>Already have an Intuit account?<br>
+          <a href="#">I forgot my user ID or Password</a>
+        </p>
 
-    <button name="signIn">
-      Sign In
-    </button>
-  </span>
+      </li>
+      <li>
+        <button name="signIn">
+          Sign In
+        </button>
+
+      </li>
+    </ul>
   </header>
+
   <div class="content">
     <div id="main-header">
       <div class="logo">
@@ -26,9 +32,10 @@
       </div>
       <div class="favicon-container">
         <ul class="favicons">
-          <li><img src="img/fav1.png" alt="fav1">mint</li>
-          <li><img src="img/fav2.png" alt="fav1">quickbooks</li>
-          <li><img src="img/fav3.png" alt="fav1">turbotax</li>
+          <li><img src="img/fav1.png" alt="fav1" class="inner">mint</li>
+          <li><img src="img/fav2.png" alt="fav1" class="inner">quickbooks</li>
+          <li><img src="img/fav3.png" alt="fav1" class="inner">turbotax</li>
+
         </ul>
       </div>
     </div>
@@ -36,11 +43,11 @@
     <form class="sign-up-form" action="" method="">
       <fieldset>
         <div class="form-title">
-          <h2>One Account.
+          <h2>One Account.<br>
             Everything Intuit.
           </h2>
           <p>Create an account for all of Intuit's products including Mint. <a href="#">Learn more</a></p>
-
+          <br>
         </div>
         <div class="form-body">
           <label>
@@ -59,22 +66,24 @@
           <button name="createAccount">
             Create account
           </button>
-          <p>By clicking Create Account, you agree to our
-            <a href="#">License Agreement</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.</p>
-
-          <div class="captcha-bar">
-            <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</p>
+          <br>
+          <br>
+          <div class="form-info">
+            <i>By clicking Create Account, you agree to our
+              <a href="#">License Agreement</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.</i>
           </div>
         </div>
-
       </fieldset>
+      <div class="captcha-bar">
+        <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</p>
+      </div>
     </form>
 
   </div>
   <footer>
-    <p> LegalPrivacySecurity
+    <p> LegalPrivacySecurity<br>
 
-      © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+      © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
       Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
 
   </footer>
