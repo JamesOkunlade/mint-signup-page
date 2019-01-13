@@ -17,9 +17,8 @@ header {
 
 header ul {
   margin: 0;
-  padding: 0;
-  list-style: none;
   padding: 5px;
+  list-style: none;
 }
 
 header ul li {
@@ -45,7 +44,6 @@ header button {
   width: 400px;
   margin: 0 auto;
   padding: 40px 20px;
-  /* height: 700px; */
 }
 
 #main-header {
@@ -80,7 +78,6 @@ header button {
 fieldset {
   border: 1px solid #e1e1e1;
   margin: 0;
-  padding: 0;
   padding: 20px;
   border-radius: 3px;
   font-family: sans-serif;
